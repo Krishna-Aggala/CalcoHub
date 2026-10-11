@@ -26,27 +26,33 @@ explore full-stack development, API integration, and database management.
   cd CalcoHub
   
 # 2. Start the Backend
-  - Navigate to the backend directory and install dependencies 
+  - Navigate to the backend directory and install dependencies
+    
     cd backend 
     npm install
     
 - Create a .env file in the backend folder and add your MongoDB connection string:
+  
   PORT=5000
   MONGO_URI=your_mongodb_connection_string_here
   
 - Start the backend server :
+  
   npm start
 
-# Start the Frontend
+# 3. Start the Frontend
 - Open a new terminal
+  
   cd frontend
   npm install
   
 - Create a .env file in the frontend folder:
 - .env
+  
   VITE_API_URL=http://localhost:5000/api/calculations
   
 - Start the frontend
+  
   npm run dev
   
 Open the local URL displayed in your terminal to use CalcoHub.
