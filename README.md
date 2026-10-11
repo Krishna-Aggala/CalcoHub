@@ -28,12 +28,14 @@ explore full-stack development, API integration, and database management.
 # 2. Start the Backend
   - Navigate to the backend directory and install dependencies
     
-    cd backend 
+    cd backend
+    
     npm install
     
 - Create a .env file in the backend folder and add your MongoDB connection string:
   
   PORT=5000
+  
   MONGO_URI=your_mongodb_connection_string_here
   
 - Start the backend server :
@@ -44,6 +46,7 @@ explore full-stack development, API integration, and database management.
 - Open a new terminal
   
   cd frontend
+  
   npm install
   
 - Create a .env file in the frontend folder:
