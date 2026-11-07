@@ -2,7 +2,8 @@
 CalcoHub is a full-stack calculator application built using the MERN stack. It provides a clean, user-friendly 
 interface for performing calculations and stores calculation history in MongoDB Atlas. This project helped me 
 explore full-stack development, API integration, and database management.
-##Live : https://calco-hub.vercel.app/
+
+Live : https://calco-hub.vercel.app/
 
 ## Tech Stack
 - **Frontend**: React.js, HTML, CSS, JavaScript
